@@ -1,0 +1,74 @@
+Installation Instructions
+*************************
+
+Requirements
+============
+
+In order to use the library and run included examples, at least this
+dependency should be installed:
+
+- boost C++ libraries.
+
+Especially:
+
+* if you use echidna eventbus you need the following boost libraries:
+    - function
+    - any
+    - smart_ptr
+    - thread
+    - utility
+
+* if you use echidna component container you also need the following boost libraries:
+    - property tree
+    - string_algo
+
+Installation
+============
+
+Echidna library is header-only: it consists entirely of header files containing 
+templates and inline functions, and require no separately-compiled library binaries
+or special treatment when linking.
+
+Extract the archive wherever you want.
+This is a sketch of the resulting directory structure:
+
+echidna\ ............................................The “echidna root directory”
+   README ....................................Generic documentation about echidna
+   INSTALL ............................................Installation documentation
+   ChangeLog ..............................................The log of the changes
+   Version .................................This file contains the version number
+   echidna\ .............................................All Echidna Header files
+   samples\ ....................................................Examples and test
+     eventbus\ .................................A simple example of the bus event
+     container\ ......................A simple example of the component container
+     distributed\ ...........A demo of the bus event in a distributed environment
+                     …more samples…
+   doc\ .........................................A subset of Echidna library docs
+
+Now you must only remember to insert the echidna path when compiling your source code.
+
+Usage
+=====
+
+It's important to note the following:
+
+The path to the echidna root directory (often C:\Program Files\echidna) is sometimes referred to as 
+$ECHIDNA_ROOT in documentation and mailing lists.
+
+To compile anything in Echidna, you need a directory containing the echidna\ subdirectory in your 
+#include path.
+
+Since all of Echidna's header files have the .h extension, and live in the echidna\ subdirectory of the
+echidna root, your Echidna #include directives will look like:
+  #include <echidna/whatever.h>
+or
+  #include "echidna/whatever.h"
+depending on your preference regarding the use of angle bracket includes. Even Windows users can
+(and, for portability reasons, probably should) use forward slashes in #include directives;
+your compiler doesn't care.
+
+
+Compilation of the samples
+==========================
+
+<TODO>
