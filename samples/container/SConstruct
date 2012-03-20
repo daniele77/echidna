@@ -1,0 +1,3 @@
+Program( 'container_sample', Glob( '*.cpp' ), CPPPATH = [ '/opt/boost_1_47_0/', '../..' ], LIBS=['boost_thread'], LIBPATH='/opt/boost_1_47_0/installation/' )
+
+

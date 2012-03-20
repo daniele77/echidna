@@ -23,6 +23,7 @@
 # Specifics
 /samples/container/Debug
 /samples/container/Release
+/samples/container/container_sample
 /samples/distributed/Debug
 /samples/distributed/Release
 /samples/eventbus/Debug
