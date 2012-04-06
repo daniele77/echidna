@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<components>
+
+  <comp1>
+    <class>ComponentA</class>
+  </comp1>
+
+  <comp2>
+    <class>ComponentA</class>
+  </comp2>
+
+  <comp3>
+    <class>ComponentB</class>
+  </comp3>
+
+  <console>
+    <class>Console</class>
+  </console>
+
+  <interpreter>
+    <class>Interpreter</class>
+  </interpreter>
+
+</components>
+
+
+<comp3>
+  <par1>100</par1>
+  <par2>200</par2>
+</comp3>
