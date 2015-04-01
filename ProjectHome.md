@@ -1,0 +1,3 @@
+Echidna is a lightweight C++ framework that provides an environment for the development of event-based applications.
+The core of the framework is an event bus with a publish-subscribe mechanism, working both inside a single process and in a distributed environment.
+Furthermore, the echidna component container allows you to build a component based architecture on top of the event communication mechanism.
